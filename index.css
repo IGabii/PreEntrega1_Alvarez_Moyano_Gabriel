@@ -1,0 +1,221 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*-------------header / nav -------------------------------*/
+
+.header-container{
+    background-color: rgba(0, 0, 0,1);               
+    display: inline-block;
+    width: 100%;
+    position:fixed;          /*header anclado*/
+    top:0
+}
+
+.imagenLogo{
+    width: 140px;
+}
+
+.nav-container{
+    display:inline-block;           
+    width: 100%;
+}
+
+ul,li,a{
+    display: inline;
+    color:#fff;                        /*display inline para que los links se encuentren uno al lado del otro*/
+    text-decoration: none;
+}
+
+li{
+    padding-right: 60px;
+    font-size: 20px;
+}
+
+.icon{
+    width: 16px;
+    height: 16px;                                /*iconos de cada link*/
+    padding-right: 5px;
+}
+
+.active{
+    border-bottom: solid 2px #fff;              /*.active permite demostrar en que pagina nos encontramos acutalmente mediante un border bottom*/
+}
+
+
+/*-------------Inicio-------------------------------------------------------------*/
+
+.body-container-index{
+    color:#fff;
+    background-image:url(galeria/imagen0.jpg);
+    background-size: cover;
+    margin-top: 100px;
+    padding-bottom: 20px
+}
+
+h1,h2{
+    margin: 0;
+}
+
+.title-index,.title-blog,.title-consejos,.title-contacto{
+    padding-top: 50px;
+    text-align: center;                            /*tamaños de titulos en todas las paginas*/
+    margin-bottom: 100px;
+}
+
+.title1{
+    font-size: 80px;
+}
+
+.title2{
+    font-size: 50px;
+}
+
+
+.nosotros-container{
+    background-color: rgba(0, 0, 0, 0.6);                  /*rgba con fondo transparente*/
+    padding:40px;
+    margin: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.video-container{
+    background-image: url(galeria/imagen1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.video-item{
+    text-align: center;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 10px 50px 10px;
+    border-radius: 10px;
+}
+
+
+.video{
+    width: 800px;
+    border-radius: 5px;
+}
+
+
+/*--------------Destinos-------------------------------------------*/
+
+.body-container-destinos{
+    margin-top: 100px;
+    background-image: url(galeria/imagen2.jpg);
+    background-size: cover;
+}
+
+.title-destinos{
+    text-align: center;
+    color:#fff;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.destinos{
+    margin-left: 70px;
+}
+
+.img{
+    width: 200px;
+    margin: 20px;                          /*tamaños de cada una de las imagenes de las provincias*/
+    border-radius: 10px;
+    border:solid #fff
+}
+
+ul{
+    padding: 0;
+}
+
+/*---------------------Blogs-----------------------------------*/
+
+.body-container-blog{
+    background-image: url(galeria/imagen3.jpg);
+    background-size: cover;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.title-blog{
+    margin-bottom: 10px;
+}
+
+.blogs-container,.consejos{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin:0 80px 0 80px;
+    color:#fff;
+    border-radius: 10px;
+}
+
+.blogs-items{
+    padding: 50px;
+    font-size: 18px;
+}
+
+.blogs-items{
+    border-bottom: solid #fff;                          /*separacion de cada blog*/
+}
+
+.blogs-items h2{
+    display: inline;
+    border-bottom: solid #fff;                   /*subrayado de titulos*/
+}
+
+span{
+    color: rgb(98, 226, 43);           /*span para resaltar palabras de color verde*/
+}
+
+
+/*-------------------Consejos----------------------------------------------*/
+
+.body-container-consejos{
+    margin-top: 100px;
+    padding-bottom: 20px;
+    background-image: url(galeria/imagen4.jpg);
+    background-size: cover;
+    color:#fff;
+}
+
+.consejos{
+    padding: 50px;
+}
+
+.consejos p{
+    font-size: 17px;
+}
+
+/*------------Contacto------------------------------------------------------------*/
+
+.body-container-contacto{
+    margin-top: 100px;
+    padding-bottom: 20px;
+    height: 100vh;
+    background-image:url(galeria/imagen5.jpg) ;
+    background-size: cover;
+    color:#fff;
+}
+
+.title-contacto{
+    color:#000
+}
+
+.formulario-contacto{
+    background-color: rgba(0, 0, 0,0.6);
+    margin: 0 400px 0 400px;
+}
+
+section{
+    padding: 20px;
+}
+
+form{
+    text-align: center;
+}
